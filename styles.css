@@ -1,0 +1,61 @@
+/*===head===*/
+head {
+    background: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0 20% 0 20%;
+}
+
+/*===navigation bar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+nav ul li a:visited {
+    color: blue;
+}
+/*===index---*/
+.site-header {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.site-header body {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: 0 40% 0 40%;
+}
+/*===archive===*/
+.archiveList {
+    list-style-type: disc;
+}
+.archiveList li a {
+    color: black;
+    text-decoration: underline;
+}
