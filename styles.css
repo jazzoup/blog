@@ -34,7 +34,7 @@ nav ul li a:hover {
     color: white;
 }
 
-nav ul li a:visited {
+nav ul li a.current {
     color: blue;
 }
 /*===index---*/
@@ -56,6 +56,6 @@ nav ul li a:visited {
     list-style-type: disc;
 }
 .archiveList li a {
-    color: black;
+    color: blue;
     text-decoration: underline;
 }
